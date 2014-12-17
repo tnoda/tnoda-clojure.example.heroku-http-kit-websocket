@@ -9,7 +9,6 @@
   [x y]
   (rem (+ x y) 1000000007))
 
-
 (defn- input->long
   [s]
   (let [c->l #(-> % long (- 48) (max 0))
