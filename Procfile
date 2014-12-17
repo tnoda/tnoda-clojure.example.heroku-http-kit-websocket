@@ -1,0 +1,1 @@
+web: java $JVM_OPTS -cp target/tnoda-clojure.example.heroku-http-kit-websocket.jar clojure.main -m tnoda-clojure.example.heroku-http-kit-websocket
